@@ -1,0 +1,16 @@
+GET http://localhost:3000/posts?sort=["title","ASC"]&range=[0, 4]&filter={"author_id":12} 
+
+
+
+GET http://localhost:3000/posts/2?sort=["title","ASC"]&range=[0, 4]&filter={"author_id":12} 
+
+
+GET http://localhost:3000/posts/2?range=[0, 4]&filter={"author_id":12}
+
+
+GET http://localhost:3000/posts/2
+
+
+GET http://localhost:3000/posts/2?filter={"author_id":12}
+
+
