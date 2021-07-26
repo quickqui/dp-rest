@@ -1,4 +1,4 @@
-import { withStaticData } from "@quick-qui/data-provider/dist/dataProvider/DataProviders"
+import { withStaticData } from "@quick-qui/data-provider"
 
 export const dp = withStaticData({
   posts: [
@@ -11,4 +11,4 @@ export const dp = withStaticData({
       name: "second",
     },
   ],
-});
+}).value();
